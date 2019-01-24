@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://c1.staticflickr.com/5/4428/36401449295_e25881d153_b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  h2 {
+    grid-column: 2/3;
+    margin: 3% auto;
+    font-style: italic;
+  }
+  header{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align-last: center;
+  }
+  #tx {color: navy;}
+  
+  .grid-container {
+    display: grid;
+    justify-content: space-around;
+  }
+  .dotted {
+      border-bottom: double;
+  }
+
+  grid-container {
+    display: grid;
+    grid: 150px / auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+    grid-area: myArea;
+}
+
+
