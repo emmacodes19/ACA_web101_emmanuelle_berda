@@ -18,7 +18,8 @@ body {
   
   .grid-container {
     display: grid;
-    justify-content: space-around;
+    margin-left: 20px;
+    /* justify-content: space-around; */
   }
   .dotted {
       border-bottom: double;
@@ -39,6 +40,9 @@ body {
     font-size: 30px;
 
     grid-area: myArea;
+
 }
+  {float: right;}
 
-
+  .listing { padding-bottom: 10px;}
+  .city { float: right;}
