@@ -1,0 +1,139 @@
+
+
+
+
+.wrapper { 
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px;
+    margin: 0 auto;
+    height: 800px; 
+    width: 800px; 
+    /* float: left;     */
+}
+
+
+body { 
+    background-image: url("https://images.unsplash.com/photo-1548685913-fe6678babe8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1023&q=80");
+}
+    
+.greeting{
+    margin: auto;
+    /* grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3; */
+    font-family: 'Petit Formal Script', cursive;
+    font-stretch: wider;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    
+}
+
+.todo {
+    margin-left: 100px;
+    /* display: flex; */
+    align-content:center;
+    padding: 100px; 
+    background-image: url("https://assets.bigcartel.com/product_images/216672820/bsp_notepad_4.25x6.25_stripetop_croeser_Artboard+1.png?auto=format&fit=max&h=1000&w=1000");
+    /* grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3; */
+    margin: 0 auto;
+
+}
+
+.calcul {
+        margin:auto;
+        /* grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;  */
+        display: flex;
+        justify-content: space-around;
+        padding: 60px;
+    }
+
+
+    
+.clock {
+
+    margin: auto;
+    /* grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;    */
+}
+
+
+
+.weather {
+    margin: auto;
+    /* grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2; */
+}
+
+
+.bourse { 
+    margin-left: 120px;
+    margin-top: 50px;
+    /* grid-column-start: 1;
+    grid-column-end: 2 ;
+    grid-row-start: 3;
+    grid-row-end: 4; */
+}
+
+
+.internet { 
+    margin: auto;
+    background-image: none;
+    color: black;
+    /* grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4; */
+}
+
+.map  { 
+    margin: auto;
+    /* grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2; */
+}
+
+
+.calendrier { 
+
+    margin: auto;
+    /* grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4; */
+
+}
+
+
+
+        @media ( max-width:600px) {
+            .wrapper{  
+            grid-template-columns:  1fr ;
+            
+            } 
+        }
+        
+        
+         @media (min-width: 600px) and  (max-width: 1200px) { 
+            .wrapper { 
+              grid-template-columns: 1fr 1fr; 
+                
+        }
+        
+        }
+        

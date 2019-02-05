@@ -1,0 +1,98 @@
+
+
+body
+{ margin: 0 auto;
+    width: 850px;
+
+
+}
+
+
+main {
+    margin: o auto;
+    height: 450px;
+    background-image: url("starsandmountains.jpeg");
+    color:white;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    
+}
+
+section {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 324px;
+    background-color: rgb(224, 222, 222);
+}
+
+article {
+    height: 374px;
+    /* width: 270px; */
+    background-color: rgb(224, 222, 222);
+    background-color: transparent;
+
+
+}
+
+
+
+.info { 
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+   
+
+}
+h1 { 
+    font-size: 100px;
+    font-stretch: expanded;
+    margin: auto;
+}
+
+
+.names {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-weight: bolder;
+    
+}
+
+button { 
+    
+    border: 3px  solid ;
+    background-color: grey;
+    color: white;
+
+}
+
+span { //* border: 1px solid black; *//
+
+ height: 100px;
+width: 100px;
+margin-left: 10px;
+margin-right: 10px;
+background-color: white;
+display: inline-block; 
+
+}
+
+#name { 
+height: 20px;
+width:  300px ;
+margin-top: 20px;
+
+}
+
+
+#msg { 
+    height:40px ;
+    width:  300px;
+    margin-top: 10px;
+}
