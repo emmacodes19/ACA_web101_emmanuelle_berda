@@ -1,0 +1,61 @@
+header {
+background-color: azure;
+margin-left: 400px;
+}
+ h1 {
+     display: inline;
+ }
+main {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    height: auto;
+    width: 100%;
+    grid-row-gap: 200px;
+     background-color: lavender; 
+    
+}
+
+.education {
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 50px;
+    background-image: ("https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    
+}
+
+.hobbies {
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 50px;
+    background-color: chocolate;
+    
+    
+
+}
+
+.experience {
+    display: grid;
+    grid-template-rows: 25%;
+    grid-row-gap: 50px;
+    background-color: brown;
+
+}
+
+footer {
+    display: grid;
+    background-color: beige;
+}
+
+.email {
+    display: grid;
+    grid-template-columns:  1/2;
+}
+
+.social {
+    grid-template-columns: 2/3;
+}
+
+.location {
+    grid-template-columns: 3/4;
+}
