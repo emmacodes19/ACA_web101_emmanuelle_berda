@@ -1,0 +1,146 @@
+header {
+margin-left: 400px;
+display: inline;
+}
+ h1 {
+     display: inline;
+     letter-spacing: 10px;
+     color: black;
+     
+ }
+main {
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+
+.education {
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1462536943532-57a629f6cc60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80");
+    width: 1000px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    border-radius: 100px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+
+    
+}
+
+h2 { text-align: center;
+    margin-left: 400px;
+    font-weight: 900px;
+    font-size: x-large;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.hobbies {
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1549317865-01a2f4632f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80");
+    background-size: cover;
+    width: 1000px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    border-radius: 100px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+
+    
+    
+
+}
+
+.experience {
+    display: flex;
+    background-image: url("https://images.unsplash.com/photo-1502154024274-8cd40923ba51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    width: 1000px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    border-radius: 100px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+
+}
+
+
+
+footer {
+
+    display: grid;
+    margin-top: 50px;
+    margin-left: 100px;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+
+} 
+
+.info { display: grid;
+    grid-template-rows:  1/2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+
+
+}
+
+.email {
+    display: grid;
+    grid-template-columns:  1/2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    justify-content: space-between;
+}
+
+.social {
+    grid-template-columns: 2/3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+}
+
+.location {
+    grid-template-columns: 3/4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+}
+
+button {
+    display: inline;
+    border-radius: 10px;
+    background-color: lavenderblush;
+    margin: 5px;
+}
+
+input {
+    display: flex;
+    justify-content: space-between;
+    border: 2px lavender solid;
+    border-radius: 5px;
+    margin: 5px auto;
+    margin-top: 7px;
+}
+
+@media (max-width: 600px) { 
+    
+main { 
+        width: 600px;
+    }
+
+h1 {
+    display: flex;
+    flex-direction: column;
+}
+
+    
+
+footer { 
+    display: grid;
+    grid-template-columns: auto;
+}
+
+} 
