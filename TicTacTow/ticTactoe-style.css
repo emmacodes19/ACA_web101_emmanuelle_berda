@@ -1,0 +1,63 @@
+body {
+    background-color: blue;
+}
+
+.tic {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows:  200px 200px 200px;
+    margin-left: 400px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.upperleft {
+    border-bottom: 2px black solid; 
+    border-right: 2px black solid;
+}
+
+.uppermiddle {
+    border-bottom: 2px black solid; 
+    border-right: 2px black solid;
+
+}
+
+.upperright {
+    border-bottom: 2px black solid;
+
+}
+
+
+.middleleft {
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+}
+
+.middlemiddle {
+    
+    border-right: 2px black solid;
+    border-bottom: 2px black solid; 
+
+}
+
+
+.middleright {
+    border-bottom: 2px black solid;
+
+}
+
+
+.lowerleft{
+    border-right: 2px black solid;
+
+}
+
+.lowermiddle {
+    border-right: 2px black solid;
+
+}
+
+.lowerright {
+    
+
+}
