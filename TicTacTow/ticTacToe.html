@@ -5,34 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="ticTactoe-style.css" >
-    <script  src="ticTacToe.js"> 
+    <script  src="./ticTacToe.js"> 
     </script>
 
     <title> Tic Tac Toe </title>
 </head>
 
-<body onload="emma()">
 
-<!-- <script> -->
+<body onload="window.alert('Welcome to my home page!');">
 
-    <!-- function myFunction () { -->
-        <!-- alert("Page is loaded"); -->
-    <!-- } -->
-    
-<!-- </script> -->
-<div onclick="myfunction" () class="tic">
+<div class="tic" onlclick="">
 
-<div onclick="myfunction" ()class="upperleft">   </div>
-<div class="uppermiddle"> </div>
-<div class="upperright">  </div>
-<div class="middleleft">  </div>
-<div class="middlemiddle"> </div>
-<div class="middleright">  </div>
-<div class="lowerleft">   </div>
-<div class="lowermiddle">  </div>
-<div class="lowerright">  </div>
+    <div class="cell" id="upperleft" onclick="placeMark(id)">   </div>
+    <div class="cell" id="uppermiddle" onclick="placeMark(id)"> </div>
+    <div class="cell" id="upperright" onclick="placeMark(id)">  </div>
+    <div class="cell" id="middleleft" onclick="placeMark(id)">  </div>
+    <div class="cell" id="middlemiddle" onclick="placeMark(id)"> </div>
+    <div class="cell" id="middleright"onclick="placeMark(id)">  </div>
+    <div class="cell" id="lowerleft"onclick="placeMark(id)">   </div>
+    <div class="cell" id="lowermiddle"onclick="placeMark(id)">  </div>
+    <div class="cell" id="lowerright "onclick="placeMark(id)">  </div>
+   
 
 </div>
+
+<div class="buttons">
+    <button id="x" onclick="changeMarkerToX()"> X </button>
+
+    OR
+
+    <button id="o"onclick="changeMarkerToO()"> O  </button>
+</div>
+
         
     
 </body>

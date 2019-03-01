@@ -11,29 +11,30 @@ body {
     margin-bottom: 50px;
 }
 
-.upperleft {
+#upperleft {
     border-bottom: 2px black solid; 
     border-right: 2px black solid;
+   
 }
 
-.uppermiddle {
+#uppermiddle {
     border-bottom: 2px black solid; 
     border-right: 2px black solid;
 
 }
 
-.upperright {
+#upperright {
     border-bottom: 2px black solid;
 
 }
 
 
-.middleleft {
+#middleleft {
     border-bottom: 2px black solid;
     border-right: 2px black solid;
 }
 
-.middlemiddle {
+#middlemiddle {
     
     border-right: 2px black solid;
     border-bottom: 2px black solid; 
@@ -41,23 +42,23 @@ body {
 }
 
 
-.middleright {
+#middleright {
     border-bottom: 2px black solid;
 
 }
 
 
-.lowerleft{
+#lowerleft{
     border-right: 2px black solid;
 
 }
 
-.lowermiddle {
+#lowermiddle {
     border-right: 2px black solid;
 
 }
 
-.lowerright {
-    
-
+.buttons {
+    display: flex;
+    justify-content: center;
 }
