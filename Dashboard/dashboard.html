@@ -23,6 +23,9 @@
                 <h2>My To Do List</h2>
                 <input type="text" id="myInput" placeholder="Title...">
                 <span onclick="newElement()" class="addBtn"> </span>
+                <!-- <script src="geolocation.js"> </script> -->
+                
+
                 <ul id="myUL">
                     <li> Take the dog out </li>
                     <li class="checked">Pay the gym </li>
@@ -77,12 +80,14 @@
         </div>
 
 
-        <div class="map">  
+        <div class="map"> 
+            <button onclick="myLocation()" > Click to get Location </button>
+            <p id="myloc"> </p>
 
 
-            <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=austin&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                <a href="https://www.embedgooglemap.net">
-                </a>
+            <!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=austin&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
+                <!-- <a href="https://www.embedgooglemap.net"> -->
+                <!-- </a> -->
                 </div>
             </div>
         
@@ -101,4 +106,5 @@
     </div>
 
 </body>
+<script src="geolocation.js"></script>
 </html>
