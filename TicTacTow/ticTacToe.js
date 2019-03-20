@@ -3,7 +3,7 @@
 var gameMarker = "X"; 
 
 function changeMarkerToX(){
-  gameMarker = "X";
+  gameMarker = "HI";
   console.log(gameMarker);
     
 
@@ -15,9 +15,10 @@ function changeMarkerToO(){
     
 }
 
-function placeMark (id) {
+
+function placeMark (sam) {
     
-    var cell = document.getElementById(id)
+    var cell = document.getElementById(sam)
     // console.log(cell,"id:" , id)
     cell.innerHTML = gameMarker;
 

@@ -1,38 +1,23 @@
 
 
 
-// var loc = document.getElementById('myloc');
 
+    var sam = document.getElementById('myloc');
+    console.log(sam)
 
-    var loc = document.getElementById('myloc');
-    console.log(loc)
     function myLocation() {
-        console.log("location:", loc)
+        console.log("location:", sam)
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(showPosition);
         } else {
-            loc.innerHTML = "Location Tracking not Possible.";
+            sam.innerHTML = "Location Tracking not Possible.";
         }
     }
 
     function showPosition(position) {
         console.log(position.coords.longitude)
-        loc.innerHTML = "longitude:" + position.coords.longitude + " <br> Latitude:" + position.coords.latitude + "<br>";
+        sam.innerHTML = "Longitude:" + position.coords.longitude + " <br> Latitude:" + position.coords.latitude + "<br>";
     }
 
 
-// function myLocation() {
-//     console.log("location:", loc)
-//     if (navigator.geolocation) {
-//         navigator.geolocation.getCurrentPosition(showPosition);
-//     } else {
-//         loc.innerHTML = "Location Tracking not Possible.";
-//     }
-// }
-
-    // function showPosition(position) {
-    //     console.log(position.coords.longitude)
-    //         
-    //     // loc.innerHTML = "longitude:" + position.coords.longitude + " <br> Latitude:" + position.coords.latitude + "<br>";
-    // }
 
